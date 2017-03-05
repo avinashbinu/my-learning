@@ -48,7 +48,7 @@ public class MyTestCases1 {
 		Thread.sleep(1000);
 		EnterTimeTrackPage ettp=new EnterTimeTrackPage(driver);
 		ettp.clickOnSettingIcon();
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		ettp.clickOnTypeOfWorkLink();
 		TypeOfWorkPage tow=new TypeOfWorkPage(driver);
 		tow.clickcreateTypeofWorkButton();
