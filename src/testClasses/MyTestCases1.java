@@ -45,7 +45,7 @@ public class MyTestCases1 {
 	{
 		LoginPage lp=new LoginPage(driver);
 		lp.login("admin","manager");
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		EnterTimeTrackPage ettp=new EnterTimeTrackPage(driver);
 		ettp.clickOnSettingIcon();
 		Thread.sleep(1000);
